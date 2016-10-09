@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+	background-color: #E9E5E5;
+	margin: 0 auto;
+
+	}
+.create {
+    text-align:center;
+    margin: 0 auto;
+    width: 900px;
+	}
+nav { 
+	margin: auto;
+		
+}
+
+nav ul { 
+	text-align: center;
+	color: white;	
+}
+
+
+nav ul li { 
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 25px;
+	background-color: #95BDE3;
+	padding: 10px;
+	border-width: 1px;		
+}
+
+nav ul li:hover { 
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 25px;
+	background-color: #A4D9ED;
+}
+
+a {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: underline;
+	color: black;
+	
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.active { 
+	color: #1F3F5C;
+}
+
